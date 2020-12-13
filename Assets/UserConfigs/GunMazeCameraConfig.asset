@@ -16,5 +16,5 @@ MonoBehaviour:
     Target30FPS: 1
     Target60FPS: 0
   DepthSensorUsage:
-    RequireAndUse: 0
+    RequireAndUse: 1
     DoNotUse: 1
