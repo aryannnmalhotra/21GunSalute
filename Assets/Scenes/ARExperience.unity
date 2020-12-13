@@ -198,6 +198,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 15649917}
   m_CullTransparentMesh: 0
+--- !u!1 &17684080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 17684081}
+  - component: {fileID: 17684083}
+  - component: {fileID: 17684082}
+  m_Layer: 8
+  m_Name: Black
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &17684081
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17684080}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4.68, y: 2.16, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1956679909}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3.018922, y: -0.00032323017}
+  m_SizeDelta: {x: 2.34, y: 1.08}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &17684082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17684080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9ec324e2311fb854c96bec9ffb46af62, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &17684083
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17684080}
+  m_CullTransparentMesh: 0
 --- !u!1 &36275236
 GameObject:
   m_ObjectHideFlags: 0
@@ -18388,7 +18461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca62b0d8b3772de4ca23bb3227731dcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ARController: {fileID: 1178580652}
+  Black: {fileID: 17684082}
   UIAudioPlayer: {fileID: 1900299653}
   BGAudio: {fileID: 1159759296}
   youDied: {fileID: 8300000, guid: bf9088853f7f69f45892441f40e88837, type: 3}
@@ -20845,6 +20918,7 @@ RectTransform:
   - {fileID: 1764168857}
   - {fileID: 1951269397}
   - {fileID: 969359964}
+  - {fileID: 17684081}
   m_Father: {fileID: 1276880594}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
